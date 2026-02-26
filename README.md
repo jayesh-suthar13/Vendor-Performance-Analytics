@@ -143,17 +143,16 @@ End-to-End Data Analytics Workflow
 ---
 
 ## Project Structure
-Vendor-Performance-Analysis/
+Vendor-Performance-Analytics/
 
-ingestion_db.py
-ingestion.ipynb
-get_vendor_summary.ipynb
-EDA.ipynb
-Vendor performance analysis.ipynb
-vendorperformancedashboard.pbix
-inventory_db
-README.md
-
+├── README.md  
+├── ingestion_db.py  
+├── notebooks/  
+│   ├── 01_ingestion.ipynb  
+│   ├── 02_EDA.ipynb  
+│   ├── 03_get_vendor_summary.ipynb  
+│   └── 04_Vendor performance analysis.ipynb  
+└── vendorperformancedashboard.pbix
 ---
 
 ## Outcome
